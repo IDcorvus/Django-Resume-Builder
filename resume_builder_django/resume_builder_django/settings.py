@@ -31,7 +31,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'resumesite',
     'crispy_forms',
+    'bootstrap3'
 ]
+INSTALLED_APPS += ['crispy_bootstrap4']
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
